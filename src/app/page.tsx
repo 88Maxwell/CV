@@ -16,8 +16,10 @@ export default function Home() {
         <p>Hobbies Walk with dog Plants Sport Books Music</p>
         <p>Languages Ukrainian English</p>
       </aside>
-      <article className="border p-8 border-sky-500 h-min-[200px] col-span-3">
+      <article className="border p-8 border-sky-500 h-min-[200px] col-span-3 prose prose-invert max-w-full">
+        <h2>Motivation</h2>
         <Motivation />
+        <h2>Employment History</h2>
         <div className="flex flex-col gap-12">
           <CodefinityJobRecord />
           <ObrioJobRecord />
