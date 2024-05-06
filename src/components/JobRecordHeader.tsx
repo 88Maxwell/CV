@@ -1,9 +1,22 @@
+import { ImageProps } from "next/image";
+import { JobRecordSubHeader } from "@/components/JobRecordSubHeader";
+import JobRecordIcon from "./JobRecordIcon";
+
 interface JobRecordHeaderProps {
-    children: React.ReactNode;
-  }
-  
-  export function JobRecordHeader({ children }: JobRecordHeaderProps): React.ReactElement {
-    return <h5 className="font-bold">{children}</h5>;
-  }
-  
-  
+  title: React.ReactNode;
+  subtitle: React.ReactNode;
+  src: ImageProps["src"];
+  alt: string;
+}
+
+export function JobRecordHeader({ title, subtitle, src, alt }: JobRecordHeaderProps): React.ReactElement {
+  return (
+    <div className="flex gap-4 flex-row">
+      <JobRecordIcon src={src} alt={alt} />
+      <div>
+        <h3 className="m-0">{title}</h3>
+        <JobRecordSubHeader>{subtitle}</JobRecordSubHeader>
+      </div>
+    </div>
+  );
+}

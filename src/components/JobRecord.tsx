@@ -3,7 +3,7 @@ interface JobRecordProps {
   }
   
   export function JobRecord({ children }: JobRecordProps): React.ReactElement {
-    return <div className="flex flex-col gap-2 prose prose-invert">{children}</div>;
+    return <div className="flex flex-col prose prose-invert">{children}</div>;
   }
   
   

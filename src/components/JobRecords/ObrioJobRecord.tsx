@@ -13,7 +13,7 @@ export function ObrioJobRecord() {
       <JobRecordHeader>Frontend engineer, OBRIO (Genesis), Kyiv/Remote</JobRecordHeader>
       <JobRecordSubHeader>September 2021 - November 2023</JobRecordSubHeader>
       <JobRecordContent>
-        I was involved in the development of a CRM system that incorporated user management and chat functionality for experts.
+        <div className="mb-4">I was involved in the development of a CRM system that incorporated user management and chat functionality for experts.</div>
         <AchivementsList>
           <AchivementsListItem>
             Code refactoring (formatting, linting, migrating class component to functional, services, DDD, architecture, etc.)
