@@ -27,8 +27,8 @@ export function CodefinityJobRecord() {
           </AchivementsListItem>
           <AchivementsListItem>Work on implementation of state management using RxJs</AchivementsListItem>
         </AchivementsList>
+        <JobRecordTechStack>TS, React, NextJs, Rx.js</JobRecordTechStack>
       </JobRecordContent>
-      <JobRecordTechStack>TS, React, NextJs, Rx.js</JobRecordTechStack>
     </JobRecord>
   );
 }
