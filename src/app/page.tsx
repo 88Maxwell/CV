@@ -11,9 +11,9 @@ import { Heading3 } from "@/components/Typography/Heading3";
 
 export default function Home() {
   return (
-    <main className="min-h-screen grid grid-cols-4 gap-8">
-      <Header className="col-span-4 grid grid-cols-4 gap-4"/>
-      <aside className="p-8 border border-sky-500 col-span-1">
+    <main className="p-2 min-h-screen grid grid-cols-4 gap-8">
+      <Header className="col-span-4 grid grid-cols-4 gap-4 shadow-lg shadow-sky-500"/>
+      <aside className="p-4  shadow-lg shadow-sky-500 col-span-1">
         <List className="mb-8" title="Contacts">
           <ListItem>Ukraine, Kyiv</ListItem>
           <ListItem>maxwell88soltyk@gmail.com</ListItem>
@@ -41,7 +41,7 @@ export default function Home() {
           <ListItem>English</ListItem>
         </List>
       </aside>
-      <article className="p-8 border border-sky-500 col-span-3 max-w-full">
+      <article className="p-4 shadow-lg shadow-sky-500 col-span-3 max-w-full">
         <Heading3 className="mb-4">Motivation</Heading3>
         <Motivation />
         <Heading3 className="mb-4">Employment History</Heading3>
@@ -53,7 +53,6 @@ export default function Home() {
           <WebbylabJobRecord />
         </div>
       </article>
-      <footer className="border border-sky-500 h-[200px] col-span-4"></footer>
     </main>
   );
 }

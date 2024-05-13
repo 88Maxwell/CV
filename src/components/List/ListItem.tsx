@@ -3,5 +3,5 @@ type Props = {
 };
 
 export function ListItem({ children }: Props) {
-  return <li>{children}</li>;
+  return <li className="font-normal text-base">{children}</li>;
 }
