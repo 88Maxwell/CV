@@ -15,7 +15,7 @@ export function CodefinityJobRecord() {
         alt="codefinity-logo"
       />
       <JobRecordContent>
-        <AchivementsList>
+        <AchivementsList className="mb-2">
           <AchivementsListItem>
             Migration of a large project with a large amount of legacy code from React 16 to React 18, and from Next 12 to Next 14.
           </AchivementsListItem>

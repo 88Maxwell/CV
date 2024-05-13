@@ -3,7 +3,7 @@ interface JobRecordProps {
   }
   
   export function JobRecord({ children }: JobRecordProps): React.ReactElement {
-    return <div className="flex flex-col  max-w-full">{children}</div>;
+    return <div className="flex flex-col">{children}</div>;
   }
   
   

@@ -1,5 +1,7 @@
 import clsx from "clsx";
 import { Avatar } from "./Avatar";
+import { Heading1 } from "./Typography/Heading1";
+import { Heading2 } from "./Typography/Heading2";
 
 type HeaderProps = {
   className?: string;
@@ -10,9 +12,9 @@ export function Header({ className }: HeaderProps) {
       <div className="col-span-1 flex justify-center items-center">
         <Avatar />
       </div>
-      <div className="col-span-3">
-        <h1>Soltyk Maksym</h1>
-        <h2>Frontend engineer</h2>
+      <div className="flex flex-col col-span-3 gap-3">
+        <Heading1>Soltyk Maksym</Heading1>
+        <Heading2 className="text-gray-400">Frontend engineer</Heading2>
       </div>
       {/* <SaveAsPDFButton/> */}
     </header>

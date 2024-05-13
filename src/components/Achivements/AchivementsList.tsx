@@ -5,5 +5,5 @@ interface AchivementsListProps {
 }
 
 export function AchivementsList({ children, className }: AchivementsListProps) {
-  return <ul className={clsx("m-0", className)}>{children}</ul>;
+  return <ul className={clsx("pl-3 mb-1", className)}>{children}</ul>;
 }

@@ -7,11 +7,12 @@ import { Motivation } from "@/components/Motivation";
 import { ListItem } from "@/components/List/ListItem";
 import { Header } from "@/components/Header";
 import { List } from "@/components/List/List";
+import { Heading3 } from "@/components/Typography/Heading3";
 
 export default function Home() {
   return (
     <main className="min-h-screen grid grid-cols-4 gap-8">
-      <Header className=" col-span-4 grid grid-cols-4 gap-8"/>
+      <Header className="col-span-4 grid grid-cols-4 gap-4"/>
       <aside className="p-8 border border-sky-500 col-span-1">
         <List className="mb-8" title="Contacts">
           <ListItem>Ukraine, Kyiv</ListItem>
@@ -41,10 +42,10 @@ export default function Home() {
         </List>
       </aside>
       <article className="p-8 border border-sky-500 col-span-3 max-w-full">
-        <h2>Motivation</h2>
+        <Heading3 className="mb-4">Motivation</Heading3>
         <Motivation />
-        <h2>Employment History</h2>
-        <div className="flex flex-col gap-12">
+        <Heading3 className="mb-4">Employment History</Heading3>
+        <div className="flex flex-col gap-4">
           <CodefinityJobRecord />
           <ObrioJobRecord />
           <SProJobRecord />

@@ -3,5 +3,5 @@ interface AchivementsListItemProps {
 }
 
 export function AchivementsListItem({ children }: AchivementsListItemProps) {
-  return <li className="m-0">{children}</li>;
+  return <li className="m-0 text-m">{children}</li>;
 }
