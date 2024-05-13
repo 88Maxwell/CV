@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <main className="min-h-screen grid grid-cols-4 gap-8">
       <header className="p-8 border border-sky-500 col-span-4">
-        {/* <Avatar /> */}
+        <Avatar />
         <SaveAsPDFButton/>
       </header>
       <aside className="p-8 border border-sky-500 col-span-1">

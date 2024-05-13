@@ -1,4 +1,3 @@
-import avatarSrc from "@/assets/avatar.jpg";
 import Image from "next/image";
 
 export function Avatar() {
@@ -12,10 +11,9 @@ export function Avatar() {
         style={{ objectPosition: "0px -50px" }}
         width={size}
         height={size}
-        src={avatarSrc}
+        src={"/avatar.jpg"}
         alt="avatar Soltyk Maksym"
       />
-      ;
     </div>
   );
 }

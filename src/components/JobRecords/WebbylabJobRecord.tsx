@@ -4,7 +4,6 @@ import { JobRecord } from "@/components/JobRecord";
 import { JobRecordContent } from "@/components/JobRecordContent";
 import { JobRecordHeader } from "@/components/JobRecordHeader";
 import { JobRecordTechStack } from "@/components/JobRecordTechStack";
-import webbylabLogoSrc from "@/assets/jobLogos/webbylab-logo.png";
 
 export function WebbylabJobRecord() {
   return (
@@ -12,7 +11,7 @@ export function WebbylabJobRecord() {
       <JobRecordHeader
         title="Fullstack developer, Webbylab, Kyiv"
         subtitle="August 2018 - December 2018"
-        src={webbylabLogoSrc}
+        src={"/jobLogos/webbylab-logo.png"}
         alt="webbylab-logo"
       />
       <JobRecordContent>

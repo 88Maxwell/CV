@@ -4,7 +4,6 @@ import { JobRecord } from "@/components/JobRecord";
 import { JobRecordContent } from "@/components/JobRecordContent";
 import { JobRecordHeader } from "@/components/JobRecordHeader";
 import { JobRecordTechStack } from "@/components/JobRecordTechStack";
-import sproLogoSrc from "@/assets/jobLogos/s-pro-logo.jpeg";
 
 export function SProJobRecord() {
   return (
@@ -12,7 +11,7 @@ export function SProJobRecord() {
       <JobRecordHeader
         title="Frontend develeper, S-PRO, Kyiv/remote"
         subtitle="August 2020 - August 2021"
-        src={sproLogoSrc}
+        src={"/jobLogos/s-pro-logo.jpeg"}
         alt="obrio-genesis-logo"
       />
       <JobRecordContent>

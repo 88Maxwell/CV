@@ -4,7 +4,6 @@ import { JobRecord } from "@/components/JobRecord";
 import { JobRecordContent } from "@/components/JobRecordContent";
 import { JobRecordHeader } from "@/components/JobRecordHeader";
 import { JobRecordTechStack } from "@/components/JobRecordTechStack";
-import codefinityLogoSrc from "@/assets/jobLogos/codefinity-logo.jpeg";
 
 export function CodefinityJobRecord() {
   return (
@@ -12,7 +11,7 @@ export function CodefinityJobRecord() {
       <JobRecordHeader
         title="Frontend engineer, Codefinity (Genesis), Kyiv/Remote"
         subtitle="December 2023 - April 2024"
-        src={codefinityLogoSrc}
+        src={"/jobLogos/codefinity-logo.jpeg"}
         alt="codefinity-logo"
       />
       <JobRecordContent>

@@ -4,7 +4,6 @@ import { JobRecord } from "@/components/JobRecord";
 import { JobRecordContent } from "@/components/JobRecordContent";
 import { JobRecordHeader } from "@/components/JobRecordHeader";
 import { JobRecordTechStack } from "@/components/JobRecordTechStack";
-import obrioGenesisLogoSrc from "@/assets/jobLogos/obrio_genesis_logo.jpeg";
 
 export function ObrioJobRecord() {
   return (
@@ -12,7 +11,7 @@ export function ObrioJobRecord() {
       <JobRecordHeader
         title="Frontend engineer, OBRIO (Genesis), Kyiv/Remote"
         subtitle="September 2021 - November 2023"
-        src={obrioGenesisLogoSrc}
+        src={"/jobLogos/obrio_genesis_logo.jpeg"}
         alt="obrio-genesis-logo"
       />
       <JobRecordContent>

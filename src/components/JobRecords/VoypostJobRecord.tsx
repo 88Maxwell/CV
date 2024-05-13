@@ -4,7 +4,6 @@ import { JobRecord } from "@/components/JobRecord";
 import { JobRecordContent } from "@/components/JobRecordContent";
 import { JobRecordHeader } from "@/components/JobRecordHeader";
 import { JobRecordTechStack } from "@/components/JobRecordTechStack";
-import voypostLogoSrc from "@/assets/jobLogos/voypost-logo.jpeg";
 
 export function VoypostJobRecord() {
   return (
@@ -12,7 +11,7 @@ export function VoypostJobRecord() {
       <JobRecordHeader
         title="Fullstack developer, Voypost, Remote"
         subtitle="September 2019 - June 2020"
-        src={voypostLogoSrc}
+        src={"/jobLogos/voypost-logo.jpeg"}
         alt="voypost-logo"
       />
       <JobRecordContent>
