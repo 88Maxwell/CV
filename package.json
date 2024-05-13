@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "npm run deploy",
+    "deploy": "gh-pages -d out",
     "deploy:debug": "NODE_DEBUG=gh-pages npm run deploy"
   },
   "dependencies": {
