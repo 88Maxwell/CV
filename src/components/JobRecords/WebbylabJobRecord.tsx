@@ -27,7 +27,7 @@ export function WebbylabJobRecord() {
         <AchivementsList>
           <AchivementsListItem>Writing tests and adding new features for a healthcare project.</AchivementsListItem>
         </AchivementsList>
-        <JobRecordTechStack>Express, SequeliYe, MySql, Mocha, Chai</JobRecordTechStack>
+        <JobRecordTechStack>Express, Sequelize, MySql, Mocha, Chai</JobRecordTechStack>
       </JobRecordContent>
     </JobRecord>
   );
