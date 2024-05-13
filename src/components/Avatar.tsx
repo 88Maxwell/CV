@@ -1,10 +1,14 @@
+import clsx from "clsx";
 import Image from "next/image";
 
-export function Avatar() {
+type AvatarProps = {
+  className?: string;
+}
+export function Avatar({className}: AvatarProps) {
   const size = 200;
 
   return (
-    <div className="overflow-hidden rounded-full w-[200px] h-[200px]">
+    <div className={clsx(`overflow-hidden rounded-full w-[200px] h-[200px]`, className)}>
       <Image
         objectFit="cover"
         className=""

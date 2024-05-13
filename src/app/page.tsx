@@ -4,18 +4,14 @@ import { VoypostJobRecord } from "@/components/JobRecords/VoypostJobRecord";
 import { SProJobRecord } from "@/components/JobRecords/SProJobRecord";
 import { CodefinityJobRecord } from "@/components/JobRecords/CodefinityJobRecord";
 import { Motivation } from "@/components/Motivation";
-import { List } from "@/components/List";
-import { ListItem } from "@/components/ListItem";
-import { Avatar } from "@/components/Avatar";
-import { SaveAsPDFButton } from "@/components/SaveAsPDFButton";
+import { ListItem } from "@/components/List/ListItem";
+import { Header } from "@/components/Header";
+import { List } from "@/components/List/List";
 
 export default function Home() {
   return (
     <main className="min-h-screen grid grid-cols-4 gap-8">
-      <header className="p-8 border border-sky-500 col-span-4">
-        <Avatar />
-        <SaveAsPDFButton/>
-      </header>
+      <Header className=" col-span-4 grid grid-cols-4 gap-8"/>
       <aside className="p-8 border border-sky-500 col-span-1">
         <List className="mb-8" title="Contacts">
           <ListItem>Ukraine, Kyiv</ListItem>
@@ -44,7 +40,7 @@ export default function Home() {
           <ListItem>English</ListItem>
         </List>
       </aside>
-      <article className="p-8 border border-sky-500 col-span-3 prose prose-invert max-w-full">
+      <article className="p-8 border border-sky-500 col-span-3 max-w-full">
         <h2>Motivation</h2>
         <Motivation />
         <h2>Employment History</h2>

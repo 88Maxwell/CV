@@ -1,9 +1,9 @@
-import { AchivementsList } from "@/components/AchivementsList";
-import { AchivementsListItem } from "@/components/AchivementsListItem";
-import { JobRecord } from "@/components/JobRecord";
-import { JobRecordContent } from "@/components/JobRecordContent";
-import { JobRecordHeader } from "@/components/JobRecordHeader";
-import { JobRecordTechStack } from "@/components/JobRecordTechStack";
+import { AchivementsList } from "@/components//Achivements/AchivementsList";
+import { AchivementsListItem } from "@/components/Achivements/AchivementsListItem";
+import { JobRecord } from "@/components/JobRecord/JobRecord";
+import { JobRecordContent } from "@/components/JobRecord/JobRecordContent";
+import { JobRecordHeader } from "@/components/JobRecord/JobRecordHeader";
+import { JobRecordTechStack } from "@/components/JobRecord/JobRecordTechStack";
 
 export function ObrioJobRecord() {
   return (

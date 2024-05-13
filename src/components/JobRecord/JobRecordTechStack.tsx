@@ -4,7 +4,7 @@ interface JobRecordTechStackProps {
 
 export function JobRecordTechStack({ children }: JobRecordTechStackProps): React.ReactElement {
   return (
-    <span className="prose-sm">
+    <span className="">
       <strong>Stack: </strong>{children}
     </span>
   );

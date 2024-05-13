@@ -3,7 +3,7 @@ interface JobRecordSubHeaderProps {
   }
   
   export function JobRecordSubHeader({ children }: JobRecordSubHeaderProps): React.ReactElement {
-    return <span className="prose-sm prose-stone">{children}</span>;
+    return <span className="">{children}</span>;
   }
   
   

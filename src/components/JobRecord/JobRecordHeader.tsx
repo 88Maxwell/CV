@@ -1,5 +1,5 @@
 import { ImageProps } from "next/image";
-import { JobRecordSubHeader } from "@/components/JobRecordSubHeader";
+import { JobRecordSubHeader } from "@/components/JobRecord/JobRecordSubHeader";
 import JobRecordIcon from "./JobRecordIcon";
 
 interface JobRecordHeaderProps {
