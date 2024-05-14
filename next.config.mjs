@@ -1,12 +1,14 @@
 const isProd = process.env.NODE_ENV === "production";
+const isLocalBuild = process.env.LOCAL_BUILD === "true";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
+  distDir: "build",
   images: {
     unoptimized: true,
   },
-  assetPrefix: isProd ? "https://88maxwell.github.io/cv" : undefined,
+  assetPrefix: isProd && !isLocalBuild ? "https://88maxwell.github.io/cv" : undefined,
 };
 
 export default nextConfig;

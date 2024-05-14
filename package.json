@@ -5,10 +5,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:local": "LOCAL_BUILD=true next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "NODE_DEBUG=gh-pages gh-pages -d out",
-    "serve": "serve out"
+    "deploy": "NODE_DEBUG=gh-pages gh-pages -d build",
+    "serve": "serve build_local"
   },
   "dependencies": {
     "clsx": "^2.1.1",
