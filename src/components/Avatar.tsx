@@ -10,9 +10,7 @@ export function Avatar({ className }: AvatarProps) {
   return (
     <div className={clsx(`overflow-hidden rounded-full w-[200px] h-[200px]`, className)}>
       <Image
-        objectFit="cover"
-        className=""
-        style={{ objectPosition: "0px -50px" }}
+        style={{ objectPosition: "0px -50px", objectFit: "cover" }}
         width={size}
         height={size}
         src={"/avatar.jpg"}

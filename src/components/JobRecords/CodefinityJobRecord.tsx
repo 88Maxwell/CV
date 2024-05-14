@@ -11,7 +11,7 @@ export function CodefinityJobRecord() {
       <JobRecordHeader
         title="Frontend engineer, Codefinity (Genesis), Kyiv/Remote"
         subtitle="December 2023 - April 2024"
-        src={"/jobLogos/codefinity-logo.jpeg"}
+        src={"/codefinity-logo.jpeg"}
         alt="codefinity-logo"
       />
       <JobRecordContent>

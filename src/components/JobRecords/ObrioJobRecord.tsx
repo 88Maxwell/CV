@@ -11,7 +11,7 @@ export function ObrioJobRecord() {
       <JobRecordHeader
         title="Frontend engineer, OBRIO (Genesis), Kyiv/Remote"
         subtitle="September 2021 - November 2023"
-        src={"/jobLogos/obrio_genesis_logo.jpeg"}
+        src={"/obrio_genesis_logo.jpeg"}
         alt="obrio-genesis-logo"
       />
       <JobRecordContent>

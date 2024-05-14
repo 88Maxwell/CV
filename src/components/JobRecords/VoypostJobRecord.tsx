@@ -11,7 +11,7 @@ export function VoypostJobRecord() {
       <JobRecordHeader
         title="Fullstack developer, Voypost, Remote"
         subtitle="September 2019 - June 2020"
-        src={"/jobLogos/voypost-logo.jpeg"}
+        src={"/voypost-logo.jpeg"}
         alt="voypost-logo"
       />
       <JobRecordContent>
