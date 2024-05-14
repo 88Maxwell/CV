@@ -1,4 +1,4 @@
-// const isProd = process.env.NODE_ENV === "production";
+const isProd = process.env.NODE_ENV === "production";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -6,7 +6,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  //   assetPrefix: isProd ? 'https://88maxwell.github.io/cv' : undefined
+  assetPrefix: isProd ? "https://88maxwell.github.io/cv" : undefined,
 };
 
 export default nextConfig;
