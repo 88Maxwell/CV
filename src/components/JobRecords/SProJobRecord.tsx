@@ -11,7 +11,7 @@ export function SProJobRecord() {
       <JobRecordHeader
         title="Frontend develeper, S-PRO, Kyiv/remote"
         subtitle="August 2020 - August 2021"
-        src={"/jobLogos/s-pro-logo.jpeg"}
+        src={"/cv/jobLogos/s-pro-logo.jpeg"}
         alt="obrio-genesis-logo"
       />
       <JobRecordContent>

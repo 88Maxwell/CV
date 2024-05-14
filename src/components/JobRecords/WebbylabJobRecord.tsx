@@ -11,7 +11,7 @@ export function WebbylabJobRecord() {
       <JobRecordHeader
         title="Fullstack developer, Webbylab, Kyiv"
         subtitle="August 2018 - December 2018"
-        src={"/jobLogos/webbylab-logo.png"}
+        src={"/cv/jobLogos/webbylab-logo.png"}
         alt="webbylab-logo"
       />
       <JobRecordContent>

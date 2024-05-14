@@ -15,7 +15,7 @@ export function Avatar({className}: AvatarProps) {
         style={{ objectPosition: "0px -50px" }}
         width={size}
         height={size}
-        src={"/avatar.jpg"}
+        src={"/cv/avatar.jpg"}
         alt="avatar Soltyk Maksym"
       />
     </div>
