@@ -1,5 +1,5 @@
-import Image, { ImageProps } from "next/image";
-import React from "react";
+import { Image } from "../Image";
+import { ImageProps } from "next/image";
 
 type Props = {
   src: ImageProps["src"];

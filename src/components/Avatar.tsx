@@ -1,10 +1,10 @@
 import clsx from "clsx";
-import Image from "next/image";
+import { Image } from "./Image";
 
 type AvatarProps = {
   className?: string;
-}
-export function Avatar({className}: AvatarProps) {
+};
+export function Avatar({ className }: AvatarProps) {
   const size = 200;
 
   return (
@@ -15,7 +15,7 @@ export function Avatar({className}: AvatarProps) {
         style={{ objectPosition: "0px -50px" }}
         width={size}
         height={size}
-        src={"/cv/avatar.jpg"}
+        src={"/avatar.jpg"}
         alt="avatar Soltyk Maksym"
       />
     </div>
