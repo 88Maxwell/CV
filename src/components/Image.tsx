@@ -6,7 +6,7 @@ export const Image = ({ src, ...props }: ImageProps): React.ReactNode => {
     const isSrcString = typeof src === "string";
     if (!isSrcString) return src;
     if (!isProd) return src;
-    return `/cv/${src}`;
+    return `/cv${src}`;
   };
 
   return <NextImage src={getSrc()} {...props} alt={props.alt} />;
